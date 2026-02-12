@@ -1,0 +1,15 @@
+IP (Internet Protocol) Address is a unique numerical identifier assigned to every device connected to a network.
+
+PC (IP of pc/ private ip of router)
+        ↓
+Router (IP of router)
+        ↓
+DNS resolves coderearth.com → 145.79.26.1
+        ↓
+Router call to its Public IP 
+        ↓
+    Internet
+        ↓
+    Website Server
+        ↓
+    Response
