@@ -1,0 +1,41 @@
+1. OS: It acts as a interface between hardware and software
+eg are windows(by microsoft), linux, macOS(for apple pc), Android(By Google), iOS (OS for iphones).
+
+2. Program: it is set of instructions written in any programming language
+Process: instance of program in execution. (ek part of program in execution) (program have multiple process).
+          each process have their own PCB(process control block).
+thread: unit of execution within a process.
+
+3. Multiprogramming:
+ Multiprogramming means multiple programs are kept in the main memory at the same time, 
+and the CPU switches between them so that it is never idle. Example: Excel and Chrome loaded in memory together.
+
+Multiprocessing:
+ Multiprocessing means a computer system uses more than one CPU (or processor cores) to execute multiple processes simultaneously.
+
+Multitasking:
+ Multitasking means a single CPU performs multiple tasks by rapidly switching between them, giving the illusion that tasks are running at the same time.
+
+4. Process states:
+new->ready->run->terminate
+          wait
+    (for i/o operations)
+
+5. CPU sheduling algorithms:
+
+Non Preemptive:
+FCFS first come first serve
+SJF shortest job first
+
+Preemptive:
+Round Robin
+SJTF shortest remaining time first
+Priority Scheduling
+
+Multilevel queue sheduling is used as hybrid model in PCs based on differentiate of process.
+
+6. Critical section problem:
+It is section that need to be executed in atomic way so at one time only 1 process can enter.
+
+7. 
+
