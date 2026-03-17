@@ -34,8 +34,22 @@ Priority Scheduling
 
 Multilevel queue sheduling is used as hybrid model in PCs based on differentiate of process.
 
-6. Critical section problem:
-It is section that need to be executed in atomic way so at one time only 1 process can enter.
+6. Critical section problem(CS):
+It is section that need to be executed in atomic way so at one time only 1 process can enter to prevent access of shared resources.
 
-7. 
+7. Process Synchronisation:
+=>Mutual Exclusion: At once only 1 process allowed to enter in CS.
+=>Progress
+=>Bounded Wait
+
+8. Process Synchronisation Mechanisms:
+Locks/Mutexes
+semaphores
+read write locks
+
+9. Deadlocks:
+
+
+
+
 
