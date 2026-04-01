@@ -1,0 +1,18 @@
+IPv4:            192.168.1.204
+Subnet mask:     255.255.255.0
+default gateway: 192.168.1.1
+
+=> 192.168.1 => network      .x => host
+
+=> It can have 0-255 hosts but 
+192.168.1.0 and 192.168.1.255 reserved.
+
+Router ➡️ system 1 192.168.1.1
+ ⬇️
+system 2 192.168.1.2 
+
+=> system 1 and system2 have private ips
+=> when they have to communicate with each other or within local network they use private ips.
+=> suppose when system 1 need to communicate with netflix it goes to default gateway then it calls 
+netflix.
+=> IPs are assigned by DHCP
