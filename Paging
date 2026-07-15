@@ -1,0 +1,13 @@
+logical memory
+pages | offset
+
+page table
+frames | pages
+
+physical memory
+frames
+
+page size (bytes)
+address (bit)
+offset=log base 2 page size
+pages = address-offset
